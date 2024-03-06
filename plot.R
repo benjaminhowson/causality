@@ -1,6 +1,6 @@
 library(ggplot2)
 
-plot <- function(data, ate = 0){
+plot <- function(data, ate = 1){
   # visualise the bias of estimator
   data$values <- data$values - ate
   
@@ -10,18 +10,18 @@ plot <- function(data, ate = 0){
 }
 
 # visualise results via density plot
-results <- read.csv("all-correct.csv")
+results <- read.csv("results/all-correct.csv")
 plot(results)
 
 # visualise results via density plot
-results <- read.csv("prop-correct.csv")
+results <- read.csv("results/prop-correct.csv")
 plot(results)
 
 
 # visualise results via density plot
-results <- read.csv("resp-correct.csv")
+results <- read.csv("results/resp-correct.csv")
 plot(results)
 
 # visualise results via density plot
-results <- read.csv("none-correct.csv")
+results <- read.csv("results/none-correct.csv")
 plot(results)
