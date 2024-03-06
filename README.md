@@ -13,3 +13,7 @@ Uses the follow methods to compute an estimate of the average treatment effect:
 
 * Use experiments file to create all functions needed in your environment.
 * Use run file to run all the experiments.
+
+## Results
+
+* Directory "results" contains the .csv files for each experimental setting.
