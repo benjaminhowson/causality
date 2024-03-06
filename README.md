@@ -17,5 +17,5 @@ Uses the follow methods to compute an estimate of the average treatment effect:
 ## Results
 
 * Directory "results" contains .csv files with example output.
-* Files contains one hundred average treatment effect estimates for each method, each computed on an independent dataset in the same setting.
+* Files contain one hundred average treatment effect estimates for each method, each computed on an independent dataset in the same setting.
   
